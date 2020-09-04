@@ -1,4 +1,13 @@
 import axios from "axios"
+import { NEW_CONNECTOR_4_SEPT_TOKEN } from "react-native-dotenv"
+const newConnector4sept = axios.create({
+  baseURL: "https://gfgf.jh",
+  headers: {
+    Accept: "application/json",
+    "Content-Type": "application/json",
+    Authorization: `Bearer ${NEW_CONNECTOR_4_SEPT_TOKEN}`
+  }
+})
 const mobile4septAPI = axios.create({
   baseURL: "https://mobile-4-sept-dev-9865.botics.co/",
   headers: { Accept: "application/json", "Content-Type": "application/json" }
