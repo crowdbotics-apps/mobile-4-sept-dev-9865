@@ -1,7 +1,6 @@
 export const installed_blueprints = [
   //@BlueprintInsertion
 { name: 'BlankScreen110492', human_name: 'Blank Screen 1', access_route: 'BlankScreen110492'},
-{ name: 'BlankScreen010489', human_name: 'Blank Screen 0', access_route: 'BlankScreen010489'},
 
   // you can add more installed blueprints here
   // access route is the route nate given to navigator
